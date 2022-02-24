@@ -6,13 +6,13 @@
  */
 
 if($_SERVER['HTTP_HOST'] == 'localhost:8888'){
-// Definieer de database waarden
+// Definieer de database waarden voor MAMP
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', 'root');
 define('DB_DATABASE', 'oct');
 }else{
-// Definieer de database waarden
+// Definieer de database waarden voor NON MAMP
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
